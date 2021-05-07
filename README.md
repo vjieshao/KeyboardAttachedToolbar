@@ -10,7 +10,7 @@
 
 ## 效果
 
-<img src="./demo.gif" alt="demo" style="zoom:30%;" />
+<img src="./demo.gif" alt="demo" style="zoom:20%;" />
 
 
 
