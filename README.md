@@ -1,6 +1,6 @@
 # KeyboardAttachedToolbar
 
-The Latest Version: 0.0.4
+The Latest Version: 0.0.1
 
 ## Example
 
