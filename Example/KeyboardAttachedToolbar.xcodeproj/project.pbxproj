@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		0C20FC2A2C3BCC3C92D9EE68 /* libPods-KeyboardAttachedToolbar_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 978122C35EF8CF47E10CB8CF /* libPods-KeyboardAttachedToolbar_Example.a */; };
 		537A5BE42645615600FAB8EC /* KeyboardAttachedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BE32645615600FAB8EC /* KeyboardAttachedToolbar.swift */; };
-		537A5BEA2645617900FAB8EC /* AttachedAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BE82645617900FAB8EC /* AttachedAppearance.swift */; };
-		537A5BEB2645617900FAB8EC /* AttachedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BE92645617900FAB8EC /* AttachedItem.swift */; };
-		537A5BEF2645618600FAB8EC /* AttachedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BED2645618600FAB8EC /* AttachedView.swift */; };
-		537A5BF02645618600FAB8EC /* AttachedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BEE2645618600FAB8EC /* AttachedButton.swift */; };
 		537A5BFB264565D700FAB8EC /* UIView+KeyboardAttachedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BFA264565D700FAB8EC /* UIView+KeyboardAttachedToolbar.swift */; };
 		537A5BFF2645668C00FAB8EC /* UIColor+KeyboardAttachedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BFE2645668C00FAB8EC /* UIColor+KeyboardAttachedToolbar.swift */; };
 		537A5C02264566C500FAB8EC /* UIControl+KeyboardAttachedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5C01264566C500FAB8EC /* UIControl+KeyboardAttachedToolbar.swift */; };
 		537A5C052645673F00FAB8EC /* String+KeyboardAttachedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5C042645673F00FAB8EC /* String+KeyboardAttachedToolbar.swift */; };
+		537A5C4C26456FEF00FAB8EC /* AttachedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5C4A26456FEF00FAB8EC /* AttachedView.swift */; };
+		537A5C4D26456FEF00FAB8EC /* AttachedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5C4B26456FEF00FAB8EC /* AttachedButton.swift */; };
+		537A5C5126456FFD00FAB8EC /* AttachedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5C4F26456FFD00FAB8EC /* AttachedItem.swift */; };
+		537A5C5226456FFD00FAB8EC /* AttachedAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5C5026456FFD00FAB8EC /* AttachedAppearance.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,14 +28,14 @@
 		165173070A430CFE27C59222 /* Pods-KeyboardAttachedToolbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardAttachedToolbar_Example.debug.xcconfig"; path = "Target Support Files/Pods-KeyboardAttachedToolbar_Example/Pods-KeyboardAttachedToolbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4E1B4A749A30817AA6304049 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		537A5BE32645615600FAB8EC /* KeyboardAttachedToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAttachedToolbar.swift; sourceTree = "<group>"; };
-		537A5BE82645617900FAB8EC /* AttachedAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachedAppearance.swift; path = ../../../AppearanceKit/AppearanceKit/KeyboardAttachedToolbar/Models/AttachedAppearance.swift; sourceTree = "<group>"; };
-		537A5BE92645617900FAB8EC /* AttachedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachedItem.swift; path = ../../../AppearanceKit/AppearanceKit/KeyboardAttachedToolbar/Models/AttachedItem.swift; sourceTree = "<group>"; };
-		537A5BED2645618600FAB8EC /* AttachedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachedView.swift; path = ../../../AppearanceKit/AppearanceKit/KeyboardAttachedToolbar/Views/AttachedView.swift; sourceTree = "<group>"; };
-		537A5BEE2645618600FAB8EC /* AttachedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachedButton.swift; path = ../../../AppearanceKit/AppearanceKit/KeyboardAttachedToolbar/Views/AttachedButton.swift; sourceTree = "<group>"; };
 		537A5BFA264565D700FAB8EC /* UIView+KeyboardAttachedToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+KeyboardAttachedToolbar.swift"; sourceTree = "<group>"; };
 		537A5BFE2645668C00FAB8EC /* UIColor+KeyboardAttachedToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+KeyboardAttachedToolbar.swift"; sourceTree = "<group>"; };
 		537A5C01264566C500FAB8EC /* UIControl+KeyboardAttachedToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+KeyboardAttachedToolbar.swift"; sourceTree = "<group>"; };
 		537A5C042645673F00FAB8EC /* String+KeyboardAttachedToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+KeyboardAttachedToolbar.swift"; sourceTree = "<group>"; };
+		537A5C4A26456FEF00FAB8EC /* AttachedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachedView.swift; sourceTree = "<group>"; };
+		537A5C4B26456FEF00FAB8EC /* AttachedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachedButton.swift; sourceTree = "<group>"; };
+		537A5C4F26456FFD00FAB8EC /* AttachedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachedItem.swift; sourceTree = "<group>"; };
+		537A5C5026456FFD00FAB8EC /* AttachedAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachedAppearance.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KeyboardAttachedToolbar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardAttachedToolbar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 		537A5BE62645615E00FAB8EC /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				537A5BE82645617900FAB8EC /* AttachedAppearance.swift */,
-				537A5BE92645617900FAB8EC /* AttachedItem.swift */,
+				537A5C5026456FFD00FAB8EC /* AttachedAppearance.swift */,
+				537A5C4F26456FFD00FAB8EC /* AttachedItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -85,8 +85,8 @@
 		537A5BE72645616700FAB8EC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				537A5BEE2645618600FAB8EC /* AttachedButton.swift */,
-				537A5BED2645618600FAB8EC /* AttachedView.swift */,
+				537A5C4B26456FEF00FAB8EC /* AttachedButton.swift */,
+				537A5C4A26456FEF00FAB8EC /* AttachedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,15 +278,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				537A5BEA2645617900FAB8EC /* AttachedAppearance.swift in Sources */,
-				537A5BF02645618600FAB8EC /* AttachedButton.swift in Sources */,
 				537A5BFF2645668C00FAB8EC /* UIColor+KeyboardAttachedToolbar.swift in Sources */,
-				537A5BEB2645617900FAB8EC /* AttachedItem.swift in Sources */,
+				537A5C5226456FFD00FAB8EC /* AttachedAppearance.swift in Sources */,
+				537A5C5126456FFD00FAB8EC /* AttachedItem.swift in Sources */,
 				537A5BE42645615600FAB8EC /* KeyboardAttachedToolbar.swift in Sources */,
 				537A5C02264566C500FAB8EC /* UIControl+KeyboardAttachedToolbar.swift in Sources */,
 				537A5C052645673F00FAB8EC /* String+KeyboardAttachedToolbar.swift in Sources */,
 				537A5BFB264565D700FAB8EC /* UIView+KeyboardAttachedToolbar.swift in Sources */,
-				537A5BEF2645618600FAB8EC /* AttachedView.swift in Sources */,
+				537A5C4C26456FEF00FAB8EC /* AttachedView.swift in Sources */,
+				537A5C4D26456FEF00FAB8EC /* AttachedButton.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
