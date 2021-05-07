@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C20FC2A2C3BCC3C92D9EE68 /* libPods-KeyboardAttachedToolbar_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 978122C35EF8CF47E10CB8CF /* libPods-KeyboardAttachedToolbar_Example.a */; };
+		537A5BE42645615600FAB8EC /* KeyboardAttachedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BE32645615600FAB8EC /* KeyboardAttachedToolbar.swift */; };
+		537A5BEA2645617900FAB8EC /* AttachedAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BE82645617900FAB8EC /* AttachedAppearance.swift */; };
+		537A5BEB2645617900FAB8EC /* AttachedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BE92645617900FAB8EC /* AttachedItem.swift */; };
+		537A5BEF2645618600FAB8EC /* AttachedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BED2645618600FAB8EC /* AttachedView.swift */; };
+		537A5BF02645618600FAB8EC /* AttachedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BEE2645618600FAB8EC /* AttachedButton.swift */; };
+		537A5BFB264565D700FAB8EC /* UIView+KeyboardAttachedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BFA264565D700FAB8EC /* UIView+KeyboardAttachedToolbar.swift */; };
+		537A5BFF2645668C00FAB8EC /* UIColor+KeyboardAttachedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5BFE2645668C00FAB8EC /* UIColor+KeyboardAttachedToolbar.swift */; };
+		537A5C02264566C500FAB8EC /* UIControl+KeyboardAttachedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5C01264566C500FAB8EC /* UIControl+KeyboardAttachedToolbar.swift */; };
+		537A5C052645673F00FAB8EC /* String+KeyboardAttachedToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A5C042645673F00FAB8EC /* String+KeyboardAttachedToolbar.swift */; };
+		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
+		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		165173070A430CFE27C59222 /* Pods-KeyboardAttachedToolbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardAttachedToolbar_Example.debug.xcconfig"; path = "Target Support Files/Pods-KeyboardAttachedToolbar_Example/Pods-KeyboardAttachedToolbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4E1B4A749A30817AA6304049 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		537A5BE32645615600FAB8EC /* KeyboardAttachedToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAttachedToolbar.swift; sourceTree = "<group>"; };
+		537A5BE82645617900FAB8EC /* AttachedAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachedAppearance.swift; path = ../../../AppearanceKit/AppearanceKit/KeyboardAttachedToolbar/Models/AttachedAppearance.swift; sourceTree = "<group>"; };
+		537A5BE92645617900FAB8EC /* AttachedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachedItem.swift; path = ../../../AppearanceKit/AppearanceKit/KeyboardAttachedToolbar/Models/AttachedItem.swift; sourceTree = "<group>"; };
+		537A5BED2645618600FAB8EC /* AttachedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachedView.swift; path = ../../../AppearanceKit/AppearanceKit/KeyboardAttachedToolbar/Views/AttachedView.swift; sourceTree = "<group>"; };
+		537A5BEE2645618600FAB8EC /* AttachedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachedButton.swift; path = ../../../AppearanceKit/AppearanceKit/KeyboardAttachedToolbar/Views/AttachedButton.swift; sourceTree = "<group>"; };
+		537A5BFA264565D700FAB8EC /* UIView+KeyboardAttachedToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+KeyboardAttachedToolbar.swift"; sourceTree = "<group>"; };
+		537A5BFE2645668C00FAB8EC /* UIColor+KeyboardAttachedToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+KeyboardAttachedToolbar.swift"; sourceTree = "<group>"; };
+		537A5C01264566C500FAB8EC /* UIControl+KeyboardAttachedToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+KeyboardAttachedToolbar.swift"; sourceTree = "<group>"; };
+		537A5C042645673F00FAB8EC /* String+KeyboardAttachedToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+KeyboardAttachedToolbar.swift"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* KeyboardAttachedToolbar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardAttachedToolbar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8F942E04BDD3227A0F60B506 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		90F14B0F4D20DB766462DED3 /* KeyboardAttachedToolbar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KeyboardAttachedToolbar.podspec; path = ../KeyboardAttachedToolbar.podspec; sourceTree = "<group>"; };
+		978122C35EF8CF47E10CB8CF /* libPods-KeyboardAttachedToolbar_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeyboardAttachedToolbar_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CF4FF32E5E271420488A7C /* Pods-KeyboardAttachedToolbar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardAttachedToolbar_Example.release.xcconfig"; path = "Target Support Files/Pods-KeyboardAttachedToolbar_Example/Pods-KeyboardAttachedToolbar_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C20FC2A2C3BCC3C92D9EE68 /* libPods-KeyboardAttachedToolbar_Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28F2738D1795C0E24577FFCD /* KeyboardAttachedToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				537A5BF9264565B500FAB8EC /* Extensions */,
+				537A5BE72645616700FAB8EC /* Views */,
+				537A5BE62645615E00FAB8EC /* Models */,
+				537A5BE32645615600FAB8EC /* KeyboardAttachedToolbar.swift */,
+			);
+			name = KeyboardAttachedToolbar;
+			path = ../KeyboardAttachedToolbar;
+			sourceTree = "<group>";
+		};
+		537A5BE62645615E00FAB8EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				537A5BE82645617900FAB8EC /* AttachedAppearance.swift */,
+				537A5BE92645617900FAB8EC /* AttachedItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		537A5BE72645616700FAB8EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				537A5BEE2645618600FAB8EC /* AttachedButton.swift */,
+				537A5BED2645618600FAB8EC /* AttachedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		537A5BF9264565B500FAB8EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				537A5BFA264565D700FAB8EC /* UIView+KeyboardAttachedToolbar.swift */,
+				537A5BFE2645668C00FAB8EC /* UIColor+KeyboardAttachedToolbar.swift */,
+				537A5C01264566C500FAB8EC /* UIControl+KeyboardAttachedToolbar.swift */,
+				537A5C042645673F00FAB8EC /* String+KeyboardAttachedToolbar.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for KeyboardAttachedToolbar */,
+				607FACD11AFB9204008FA782 /* Products */,
+				C63773CFEE2D71ACF606D5C8 /* Pods */,
+				8C7060FDBFF26A79F4058C92 /* Frameworks */,
+				28F2738D1795C0E24577FFCD /* KeyboardAttachedToolbar */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* KeyboardAttachedToolbar_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for KeyboardAttachedToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				ED946E9720510B2D005A9B5B /* App */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+			);
+			name = "Example for KeyboardAttachedToolbar";
+			path = KeyboardAttachedToolbar;
+			sourceTree = "<group>";
+		};
+		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD41AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				90F14B0F4D20DB766462DED3 /* KeyboardAttachedToolbar.podspec */,
+				8F942E04BDD3227A0F60B506 /* README.md */,
+				4E1B4A749A30817AA6304049 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8C7060FDBFF26A79F4058C92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978122C35EF8CF47E10CB8CF /* libPods-KeyboardAttachedToolbar_Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C63773CFEE2D71ACF606D5C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				165173070A430CFE27C59222 /* Pods-KeyboardAttachedToolbar_Example.debug.xcconfig */,
+				A0CF4FF32E5E271420488A7C /* Pods-KeyboardAttachedToolbar_Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED946E9720510B2D005A9B5B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* KeyboardAttachedToolbar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "KeyboardAttachedToolbar_Example" */;
+			buildPhases = (
+				92A7AB08C2A705C4A30D51B1 /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardAttachedToolbar_Example;
+			productName = KeyboardAttachedToolbar;
+			productReference = 607FACD01AFB9204008FA782 /* KeyboardAttachedToolbar_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = 3commas;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "KeyboardAttachedToolbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* KeyboardAttachedToolbar_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92A7AB08C2A705C4A30D51B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyboardAttachedToolbar_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				537A5BEA2645617900FAB8EC /* AttachedAppearance.swift in Sources */,
+				537A5BF02645618600FAB8EC /* AttachedButton.swift in Sources */,
+				537A5BFF2645668C00FAB8EC /* UIColor+KeyboardAttachedToolbar.swift in Sources */,
+				537A5BEB2645617900FAB8EC /* AttachedItem.swift in Sources */,
+				537A5BE42645615600FAB8EC /* KeyboardAttachedToolbar.swift in Sources */,
+				537A5C02264566C500FAB8EC /* UIControl+KeyboardAttachedToolbar.swift in Sources */,
+				537A5C052645673F00FAB8EC /* String+KeyboardAttachedToolbar.swift in Sources */,
+				537A5BFB264565D700FAB8EC /* UIView+KeyboardAttachedToolbar.swift in Sources */,
+				537A5BEF2645618600FAB8EC /* AttachedView.swift in Sources */,
+				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDA1AFB9204008FA782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDF1AFB9204008FA782 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165173070A430CFE27C59222 /* Pods-KeyboardAttachedToolbar_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyboardAttachedToolbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CF4FF32E5E271420488A7C /* Pods-KeyboardAttachedToolbar_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyboardAttachedToolbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "KeyboardAttachedToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "KeyboardAttachedToolbar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}
