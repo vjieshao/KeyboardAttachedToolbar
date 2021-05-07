@@ -10,7 +10,7 @@
 
 ## 效果
 
-<img src="./demo.gif" alt="demo" style="width:100px;" />
+<img src="./demo.gif" alt="demo" />
 
 
 
