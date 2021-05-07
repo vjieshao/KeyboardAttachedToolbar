@@ -150,3 +150,9 @@ s.dependency "SnapKit"
 ## Demo
 
 demo在Example目录下，如有不懂，可以看demo。
+
+
+
+## License
+
+KeyboardAttachedToolbar is released under the MIT license. See [LICENSE](https://github.com/vjieshao/KeyboardAttachedToolbar/blob/master/LICENSE) for details.
