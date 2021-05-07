@@ -33,20 +33,24 @@ public struct Appearance {
 
     public static var safeTopHeight: CGFloat {
         var safeTopSpacing: CGFloat = 0.0
-        if let top = UIApplication.shared.keyWindow?.safeAreaInsets.top, top != 0.0 {
-            safeTopSpacing = top
-        } else if let top = UIApplication.shared.windows.first?.safeAreaInsets.top, top != 0.0 {
-            safeTopSpacing = top
+        if #available(iOS 11.0, *) {
+            if let top = UIApplication.shared.keyWindow?.safeAreaInsets.top, top != 0.0 {
+                safeTopSpacing = top
+            } else if let top = UIApplication.shared.windows.first?.safeAreaInsets.top, top != 0.0 {
+                safeTopSpacing = top
+            }
         }
         return safeTopSpacing
     }
 
     public static var safeBottomHeight: CGFloat {
         var safeBottomSpacing: CGFloat = 0.0
-        if let bottom = UIApplication.shared.keyWindow?.safeAreaInsets.bottom, bottom != 0.0 {
-            safeBottomSpacing = bottom
-        } else if let bottom = UIApplication.shared.windows.first?.safeAreaInsets.bottom, bottom != 0.0 {
-            safeBottomSpacing = bottom
+        if #available(iOS 11.0, *) {
+            if let bottom = UIApplication.shared.keyWindow?.safeAreaInsets.bottom, bottom != 0.0 {
+                safeBottomSpacing = bottom
+            } else if let bottom = UIApplication.shared.windows.first?.safeAreaInsets.bottom, bottom != 0.0 {
+                safeBottomSpacing = bottom
+            }
         }
         return safeBottomSpacing
     }
